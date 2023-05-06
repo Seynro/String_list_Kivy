@@ -1,0 +1,397 @@
+version = 0
+sysroot = ""
+sysroots_dir = ""
+parts = []
+
+[Application]
+entry_point = ""
+is_console = true
+is_bundle = false
+name = "ChatGPT"
+qmake_configuration = ""
+script = "C:\\Users\\user\\Desktop\\Programs\\Python\\GPT_app\\dist\\test\\test.exe"
+syspath = ""
+
+[Application.Package]
+name = "C:\\Users\\user\\Desktop\\Programs\\Python\\GPT_app\\dist\\test"
+exclude = [ "*.pyc", "*.pyd", "*.pyo", "*.pyx", "*.pxi", "__pycache__", "*-info", "EGG_INFO", "*.so",]
+[[Application.Package.Content]]
+name = "base_library.zip"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "libcrypto-1_1.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "libssl-1_1.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "PyQt5"
+included = true
+is_directory = true
+[[Application.Package.Content.Content]]
+name = "Qt5"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content]]
+name = "bin"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content]]
+name = "d3dcompiler_47.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "libEGL.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "libGLESv2.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "MSVCP140.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "MSVCP140_1.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "opengl32sw.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Core.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5DBus.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Gui.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Network.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Qml.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5QmlModels.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Quick.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Svg.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5WebSockets.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "Qt5Widgets.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "VCRUNTIME140_1.dll"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content]]
+name = "plugins"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content]]
+name = "generic"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qtuiotouchplugin.dll"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "iconengines"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qsvgicon.dll"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "imageformats"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qgif.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qicns.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qico.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qjpeg.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qsvg.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qtga.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qtiff.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qwbmp.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qwebp.dll"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "platforms"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qminimal.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qoffscreen.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qwebgl.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qwindows.dll"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "platformthemes"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qxdgdesktopportal.dll"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "styles"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content.Content]]
+name = "qwindowsvistastyle.dll"
+included = true
+is_directory = false
+
+
+
+[[Application.Package.Content.Content.Content]]
+name = "translations"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_ar.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_bg.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_ca.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_cs.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_da.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_de.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_en.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_es.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_fi.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_fr.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_gd.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_he.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_hu.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_it.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_ja.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_ko.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_lv.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_pl.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_ru.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_sk.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_tr.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_uk.qm"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "qtbase_zh_TW.qm"
+included = true
+is_directory = false
+
+
+
+
+[[Application.Package.Content]]
+name = "python3.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "python311.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "test.exe"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "VCRUNTIME140.dll"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "VCRUNTIME140_1.dll"
+included = true
+is_directory = false
+
